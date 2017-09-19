@@ -1,7 +1,10 @@
 cni-driver
 ========
 
-A microservice that does micro things.
+This microservice is responsible for setting up CNI config and binaires
+for the current network driver in the running environment.
+
+This binary is packaged in https://github.com/rancher/rancher-net
 
 ## Building
 
@@ -13,7 +16,7 @@ A microservice that does micro things.
 `./bin/cni-driver`
 
 ## License
-Copyright (c) 2014-2016 [Rancher Labs, Inc.](http://rancher.com)
+Copyright (c) 2014-2017 [Rancher Labs, Inc.](http://rancher.com)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
